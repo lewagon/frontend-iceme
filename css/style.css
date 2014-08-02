@@ -1,0 +1,83 @@
+/* General classes for page */
+
+body {
+  background-image: url("../images/grid.jpg");
+  font-family: 'Open Sans';
+}
+
+/* Footer */
+
+#footer {
+  background-color: #222;
+  color: #aaaaaa;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#footer a {
+  color: #cccccc;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+.social a {
+  font-size: 24px;
+}
+
+.social a:hover {
+  text-decoration: none;
+}
+
+/* Lead with big image */
+
+.wrapper {
+  background-image: url('../images/background/background.jpg');
+  height: 650px;
+  background-size: cover;
+  padding-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+.lead h1 {
+  font-size: 72px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+  font-weight: normal;
+}
+
+.lead h2 {
+  background: rgba(0, 0, 0, .4);
+  display: inline-block;
+  padding: 0.2em;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 2em;
+}
+
+/* Vertical spacer to help content breathe */
+
+.vertical-spacer {
+  height: 8em;
+}
+
+/* Some padding for feature images */
+
+.feature img {
+  margin-bottom: 2em;
+}
+
+.feature {
+  color: #444444;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* Maps display */
+
+#map{
+  width: 100%;
+  height: 400px;
+}
