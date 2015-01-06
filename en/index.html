@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>IceMe - Dégustez une glace, maintenant !</title>
+    <title>IceMe - Enjoy an ice cream, now!</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -18,6 +18,7 @@
     <![endif]-->
   </head>
   <body>
+
     <nav class="navbar navbar-default navbar-fixed-top navbar-transparent" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -44,7 +45,7 @@
               <a href="about.html">About us</a>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Suivez-nous ! <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Follow us ! <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#"> <i class="fa fa-twitter-square"></i> Twitter</a></li>
                 <li><a href="#"> <i class="fa fa-facebook-square"></i> Facebook</a></li>
@@ -58,10 +59,10 @@
 
     <div class="wrapper">
       <div class="lead">
-        <h1>DÉGUSTEZ UNE GLACE</h1>
-        <h2>MAINTENANT TOUT DE SUITE</h2>
+        <h1>ENJOY AN ICE CREAM</h1>
+        <h2>RIGHT. NOW.</h2>
         <p>
-          <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Je veux une glace</a>
+          <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">I want an ice cream!</a>
         </p>
       </div>
     </div>
@@ -72,35 +73,35 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="myModalLabel"><h3>Commandez maintenant !</h3></h4>
+            <h4 class="modal-title" id="myModalLabel"><h3>Order now!</h3></h4>
           </div>
           <div class="modal-body">
 
             <form role="form">
               <div class="form-group">
-                <label for="emailAddress">Votre email</label>
+                <label for="emailAddress">Your email</label>
                 <input type="email" class="form-control" id="emailAddress" placeholder="votre email">
               </div>
               <div class="form-group">
                 <label>
                   <input type="radio" name="gender" value="m">
-                  Cornet
+                  Cone
                 </label>
                 <label>
                   <input type="radio" name="gender" value="f">
-                  Pot
+                  Cup
                 </label>
               </div>
 
               <div class="form-group">
                 <select name="flavor" class="form-control">
-                  <option value="m">Chocolat</option>
-                  <option value="f">Vanille</option>
-                  <option value="f">Fraise</option>
+                  <option value="m">Chocolate</option>
+                  <option value="f">Vanilla</option>
+                  <option value="f">Strawberry</option>
                 </select>
               </div>
 
-              <input type="submit" value="Commandez" class="btn btn-primary">
+              <input type="submit" value="Order" class="btn btn-primary">
             </form>
 
           </div>
@@ -114,37 +115,35 @@
       <div class="row text-center">
         <div class="col-sm-6 col-md-3">
           <div class="feature">
-            <img src="images/icon_57707/icon_57707.png" width="96">
+            <img src="../images/icon_57707/icon_57707.png" width="96">
             <p>
-              Choisissez jusque trois parfums
-              parmis notre catalogue de <strong>1000</strong> glaces maison.
+              Pick up to three different flavors
+              among our catalog of more than <strong>1000</strong> home made ice creams.
             </p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="feature">
-            <img src="images/icon_29388/icon_29388.png" width="96">
+            <img src="../images/icon_29388/icon_29388.png" width="96">
             <p>
-              L'application vous <strong>géolocalise</strong> automatiquement et vous
-              indique le temps d'attente estimé.
+              Our app is <strong>geolocating</strong> you automatically and show you the waiting time.
             </p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="feature">
-            <img src="images/icon_24755/icon_24755.png" width="96">
+            <img src="../images/icon_24755/icon_24755.png" width="96">
             <p>
-              Un de nos supers livreurs fonce pour vous apporter votre glace,
-              qui sera <strong>préparée juste à temps</strong>.
+              One of our super delivery guys will rush to bring your ice cream to you,
+              which will be <strong>made just in time</strong>.
             </p>
           </div>
         </div>
         <div class="col-sm-6 col-md-3">
           <div class="feature">
-            <img src="images/icon_17805/icon_17805.png" width="96">
+            <img src="../images/icon_17805/icon_17805.png" width="96">
             <p>
-              Pas de monnaie ? Pas un problème, le paiement est <strong>automatiquement</strong>
-              débité sur votre carte bancaire.
+              No cash? No problem, we're debiting your credit card <strong>automatically</strong>.
             </p>
           </div>
         </div>
@@ -156,7 +155,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-xs-12"></div>
-          <h3>La newsletter de IceMe</h3>
+          <h3>Our newsletter</h3>
           <br/>
           <!-- Begin MailChimp Signup Form -->
           <form class="form-inline" role="form" action="YOUR MAILCHIMP LIST URL" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form">
@@ -165,7 +164,7 @@
           </form>
           <!--End mc_embed_signup-->
           <br/>
-          <p>Pour plus d'infos sur nous, c'est par <a href="about.html">ici</a> </p>
+          <p>More info? <a href="about.html">click here</a> </p>
         </div>
       </div>
     </div>
@@ -201,7 +200,7 @@
           </div>
           <div class="col-lg-9">
             <div class="text-center">
-              IceMe est une compagnie fictive créée dans le cadre de
+              IceMe is a fictional company created for
               <a href="http://www.cetetejecode.fr">cetetejecode.fr</a>.
             </div>
           </div>
